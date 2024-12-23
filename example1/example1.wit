@@ -1,0 +1,14 @@
+
+package example:ex1;
+
+world example1 {
+    record custom {
+      a: u64,
+      b: u64,
+      c: u64,
+    }
+
+    export writer: func() -> string;
+
+    export add-from-record: func(data: custom) -> u64;
+}

@@ -1,0 +1,1 @@
+npx jco componentize -w example1.wit -o example1.wasm example1.js
